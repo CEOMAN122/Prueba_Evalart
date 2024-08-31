@@ -1,0 +1,27 @@
+# ignora directorios de compilación y salidas de prueba
+/bin/
+/build/
+/target/
+
+# ignora archivos de  IDE
+.idea/
+/*.iml
+/*.class
+
+# ignora archivos de Gradle
+.gradle/
+/.gradle/
+/.gradle/*
+
+# ignora binarios de compilación
+*.class
+
+# ignora salidas de pruebas, logs
+/test-output/
+/reports/
+*.log
+
+# Ignorar otros archivos generados
+*.lock
+*.bin
+*.probe
